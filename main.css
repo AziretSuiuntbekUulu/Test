@@ -1,0 +1,16 @@
+#diff textarea{
+width: 300px;
+height: 200px;
+margin-left: 20px;
+display: block;
+}
+
+#fileLoader{
+    margin-left: 20px;   
+}
+#fileLoader2{
+    margin-left: 20px;   
+}
+#submit{
+    margin-left: 130px;
+}

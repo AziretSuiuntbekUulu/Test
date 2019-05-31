@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="diff">
+            <div id="controls">
+                <input type="file" id="fileLoader">
+            </div>
+            <br />
+            <textarea onkeyup="myText" id="myText"></textarea>
+        </div>
+
+        <div id="diff">
+            <div id="controls">
+                <input type="file" id="fileLoader2">
+            </div>
+            <br />
+            <textarea id="myText2"></textarea>
+        </div>
+<br />
+        <div id="diff">
+                <div id="controls">
+                    <input type="button" id="submit" onclick="Difference()" value="submit">
+                </div>
+                
+            </div>
+    </div>
+
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
